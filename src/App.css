@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  button {
+    margin: 30px;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .blog-card {
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .blog-card a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-weight: normal;
+    transition: color 0.3s ease;
+  }
+  
+  .blog-card a:hover {
+    color: #ffdd57;
+    text-decoration: underline;
+  }
+  
+  input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #999;
+  }
+  
+  input {
+    height: 40px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  button[type="submit"] {
+    background: #28a745;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  .container form {
+    margin-top: 20px;
+  }
+  
