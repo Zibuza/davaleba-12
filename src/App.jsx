@@ -3,7 +3,7 @@ import { BlogProvider } from "./context/BlogContext";
 import HomePage from "./pages/HomePage";
 import BlogDetails from "./pages/BlogDetails";
 import CreateBlog from "./pages/CreateBlog";
-import "./app.css"
+import "./App.css"
 
 function App() {
   return (
